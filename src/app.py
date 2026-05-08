@@ -26,8 +26,8 @@ from typing import Optional, Dict, Tuple
 from data_models import Assessment, VerdictTone
 from config import LENSES, PRESET_NEIGHBORHOODS, COLOR_TONE
 from analyzer import SixFunctionAnalyzer
-from verdict_builder import VerdictBuilder
-from data_loader import load_sample_data, create_test_isochrones
+from walkability import VerdictBuilder
+from social_function import load_sample_data, create_test_isochrones
 
 
 # ============================================================================
