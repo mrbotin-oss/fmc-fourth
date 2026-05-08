@@ -237,7 +237,7 @@ def load_overture_data(
         See: https://overturemap.org/
     """
     try:
-        import overturemap  # hypothetical library
+        import overturemaps  # hypothetical library
     except ImportError:
         print("Error: overturemap not installed")
         return None
